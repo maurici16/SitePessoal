@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Aula 4</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    
+    <header>
+        <h1> Projeto aula 4 </h1> <!-- é o titulo principal -->
+        <!-- nav é navegação -->
+        <nav>
+            <ul> 
+                <li>
+                    <a href="index.html">Início</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.unifebe.edu.br/site/">Unifebe</a> <!-- target="_blank" para abrir uma nova página-->
+                </li>
+                <li> 
+                    <a href="mailto:lucas.@email,com">Email</a> <!-- "mailto:lucas.@email,com" Para enviar email-->
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- alt + shift + f identa o codigo selecionado-->
+    <!-- main é obrigatorio só uma em Todas as páginas. é o conteudo principal-->
+    <main>
+        <section>
+            <h2>Destaques</h2>
+            <div>
+                <!-- alt é o texto alternativo-->
+                <img src="assets/img/narureza/kakapo.png" width="300px" height="" alt="Passaro Kakapo"> 
+                <img src="https://meusanimais.com.br/wp-content/uploads/2021/03/kakapo-cativeiro-768x512.jpg" alt="Passaro Kakapo" width="300px" height="">
+            </div>
+        </section>
+        <section>
+            <!-- h2 é titulo menos importante que h1-->
+            <h2>Notícia</h2>
+            <article>
+                <h3>Quarta áula HTML</h3>
+                <!-- <b> é negrito -->
+                <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, eveniet. Expedita aut, explicabo accusamus voluptas laudantium vero totam numquam, deserunt eligendi eveniet quas? Nam voluptate facere minus amet facilis placeat!</b></p>
+                <!-- strong é negrito sem causar conflitos no css-->
+                <strong>NEGRITO SEM BRIGAR COM O CSS</strong>
+    </main>
+    <!-- footer é rodapé-->
+    <footer>
+        <p> Desenvolvido por Lucas Gabriel Maurici</p>
+    </footer>
+
+</body>
+</html>
+
